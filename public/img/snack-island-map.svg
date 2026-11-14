@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1080" viewBox="0 0 480 1080" fill="none">
+  <rect width="480" height="1080" fill="#FFFBF2"/>
+  <path d="M17 8Q9 120 22 217T13 422Q26 545 14 668T19 886Q4 989 22 1073l439-1q-12-99 2-206t-5-219q16-121 0-231t5-225q-15-99-1-183H17Z" fill="#8ED0E0" stroke="#0B3D3B" stroke-width="3"/>
+  <path d="m240 1044-91-35-64-68-36-89 5-93-22-87 31-90-7-100 29-75-3-91 38-72 23-85 73-41 86 24 61 60 46 78 17 92-12 81 28 85-24 88 24 91-23 94-18 98-68 72-67 23Z" fill="#12726E" opacity=".18" transform="translate(0 8)"/>
+  <path d="m240 1044-91-35-64-68-36-89 5-93-22-87 31-90-7-100 29-75-3-91 38-72 23-85 73-41 86 24 61 60 46 78 17 92-12 81 28 85-24 88 24 91-23 94-18 98-68 72-67 23Z" fill="#F4E7D3" stroke="#0B3D3B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M104 810q73-101 124-65t78-52q52-69-8-132t-3-125q79-47 33-115T216 236q-32-44-2-86" stroke="#FFFBF2" stroke-width="38" stroke-linecap="round" opacity=".55"/>
+  <path d="m151 1006 17-53 78-4 39 55" fill="#F5B33C" stroke="#0B3D3B" stroke-width="3"/>
+  <g stroke="#0B3D3B" stroke-width="3"><path d="m163 958 9 60m21-64 9 64m20-64 8 66m-74-40 94-3m-84 23 92-4"/><path d="m143 954 13-34m97 30 8-34"/></g>
+  <g stroke="#0B3D3B" stroke-width="3"><path d="m61 847 17-24 19 18 16-25 20 28" fill="#C7421C"/><circle cx="93" cy="859" r="15" fill="#F5B33C"/><path d="m322 884 20-29 18 22 18-26 20 31" fill="#F5B33C"/></g>
+  <g stroke="#0B3D3B" stroke-width="3"><path d="M84 742v39m-17-2h34" stroke="#C7421C" stroke-width="8"/><circle cx="83" cy="715" r="30" fill="#2F9E68"/><circle cx="63" cy="726" r="20" fill="#2F9E68"/><circle cx="79" cy="705" r="7" fill="#C7421C"/><path d="M380 690v45" stroke="#C7421C" stroke-width="9"/><path d="M381 696q-60-17-37-52 28-8 37 52Zm0-4q8-60 43-41 9 33-43 41Z" fill="#2F9E68"/></g>
+  <g stroke="#0B3D3B" stroke-width="2.5"><path d="M77 583v47m-12-42 13-13 14 13v42m-27-25h27" fill="#F5B33C"/><path d="m62 588 16-13 17 13" fill="#C7421C"/><path d="M125 613v42m-12-37 13-13 14 13v37m-27-22h27" fill="#F5B33C"/><path d="m110 618 16-13 17 13" fill="#C7421C"/><path d="M324 563v45m-12-40 13-13 14 13v40m-27-24h27" fill="#F5B33C"/><path d="m309 568 16-13 17 13" fill="#C7421C"/><path d="M369 594v42m-12-37 13-13 14 13v37m-27-22h27" fill="#F5B33C"/><path d="m354 599 16-13 17 13" fill="#C7421C"/><path d="M389 533v38m-11-33 12-13 13 13v33m-26-20h26" fill="#F5B33C"/><path d="m375 538 15-13 16 13" fill="#C7421C"/></g>
+  <g fill="#F5B33C" stroke="#0B3D3B" stroke-width="3"><path d="m65 461 13-39 25-7 24 47-22 26-39-8Z"/><path d="m352 489 16-52 30 10 16 47-27 21-35-26Z"/><circle cx="83" cy="448" r="3" fill="#0B3D3B"/><circle cx="104" cy="450" r="3" fill="#0B3D3B"/><path d="m84 466 17 1"/><circle cx="374" cy="463" r="3" fill="#0B3D3B"/><circle cx="392" cy="467" r="3" fill="#0B3D3B"/><path d="m375 483 17 2"/></g>
+  <path d="M68 350q44-45 82-5l-20 28-59-1Z" fill="#8ED0E0" stroke="#0B3D3B" stroke-width="3"/>
+  <path d="m69 351 11-55 28-22 28 15 14 56" fill="#F5B33C" stroke="#0B3D3B" stroke-width="3"/>
+  <path d="M56 333q-19-8-21 4t20 4m96-5q20-8 22 4t-20 4" stroke="#FFFBF2" stroke-width="4" stroke-linecap="round"/>
+  <path d="m352 352 14-70 29-29 29 88-34 32Z" fill="#F5B33C" stroke="#0B3D3B" stroke-width="3"/>
+  <path d="m372 315 28-31m-35 57 44-20" stroke="#0B3D3B" stroke-width="3"/>
+  <g stroke="#0B3D3B" stroke-width="3"><path d="M82 208v40" stroke="#C7421C" stroke-width="8"/><circle cx="83" cy="185" r="29" fill="#2F9E68"/><circle cx="64" cy="195" r="18" fill="#2F9E68"/><path d="M368 210v40" stroke="#C7421C" stroke-width="8"/><circle cx="367" cy="184" r="30" fill="#2F9E68"/><circle cx="390" cy="194" r="20" fill="#2F9E68"/></g>
+  <path d="m182 139 27-63 30-16 39 54 40 34-62 13-74-22Z" fill="#F5B33C" stroke="#0B3D3B" stroke-width="3"/>
+  <path d="M237 104V40" stroke="#0B3D3B" stroke-width="3"/><path d="m239 41 43 14-43 18V41Z" fill="#C7421C" stroke="#0B3D3B" stroke-width="3"/>
+  <g fill="none" stroke="#12726E" stroke-width="2" opacity=".65"><path d="M31 131q12-8 24 0m365 70q12-8 24 0M29 708q12-8 24 0m366 58q12-8 24 0M38 982q12-8 24 0"/></g>
+</svg>

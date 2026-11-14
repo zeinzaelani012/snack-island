@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xs: 0px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1600px;
+
+  --color-ocean-900: #0B3D3B;
+  --color-ocean-700: #12726E;
+  --color-parchment: #FFFBF2;
+  --color-sand: #F4E7D3;
+  --color-ink: #14282A;
+  --color-ink-muted: #4A5A5B;
+  --color-coral-600: #C7421C;
+  --color-gold-500: #F5B33C;
+  --color-leaf-600: #2F9E68;
+  --color-danger-600: #B3392F;
+  --color-sky-300: #8ED0E0;
+  --font-display: 'Fredoka', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
+}
+
+/* Design tokens — every size in the app reads from these.
+   Hard-coded font sizes and widths are banned; Tailwind's text-[Xpx]
+   utilities must not be used, so the text-scale setting works everywhere. */
+:root {
+  --text-scale: 1;
+
+  /* Type — fluid, each with a hard upper cap */
+  --fs-sm:      clamp(0.9375rem, 0.88rem + 0.18vw, 1rem);
+  --fs-body:    clamp(1.0625rem, 0.95rem + 0.28vw, 1.1875rem);
+  --fs-option:  clamp(1.125rem, 1.03rem + 0.3vw, 1.3125rem);
+  --fs-h3:      clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
+  --fs-h2:      clamp(1.5rem, 1.25rem + 1.1vw, 2.25rem);
+  --fs-h1:      clamp(1.875rem, 1.5rem + 2vw, 3.25rem);
+  --fs-display: clamp(2.25rem, 1.75rem + 2.6vw, 4rem);
+
+  /* Spacing */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --gap-section: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+  --pad-page: clamp(1rem, 0.5rem + 2vw, 2.5rem);
+
+  /* Containers — per-screen widths, not one global max-width */
+  --w-focus: min(100% - 2 * var(--pad-page), 40rem);      /* 640px  */
+  --w-focus-lg: min(100% - 2 * var(--pad-page), 70rem);   /* 1120px */
+  --w-content: min(100% - 2 * var(--pad-page), 68.75rem); /* 1100px */
+  --w-map: min(100% - 2 * var(--pad-page), 45rem);        /* 720px  */
+
+  /* Controls and surfaces */
+  --h-control: clamp(3rem, 2.75rem + 0.5vw, 3.5rem);      /* 48 → 56px */
+  --radius: 0.875rem;
+  --radius-sm: 0.5rem;
+
+  /* Readability caps — apply to every block of body copy */
+  --measure-body: 68ch;
+  --measure-instruction: 56ch;
+  --measure-reading: 62ch;
+
+  font-family: 'Nunito Sans', sans-serif;
+  color: #14282A;
+  background: #FFFBF2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* The Settings text-size control multiplies the whole app through
+   --text-scale; every rem-based size picks it up automatically. */
+html {
+  font-size: calc(100% * var(--text-scale, 1));
+}
+
+/* Global rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+  font-size: var(--fs-body);
+  line-height: 1.55;
+}
+
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+/* Readability caps — apply to every block of body copy */
+.measure-body { max-width: var(--measure-body); }
+.measure-instruction { max-width: var(--measure-instruction); }
+.measure-reading { max-width: var(--measure-reading); }
+
+/* Type token utilities — the only way to set font sizes in components */
+.fs-sm { font-size: var(--fs-sm); }
+.fs-body { font-size: var(--fs-body); }
+.fs-option { font-size: var(--fs-option); }
+.fs-h3 { font-size: var(--fs-h3); }
+.fs-h2 { font-size: var(--fs-h2); }
+.fs-h1 { font-size: var(--fs-h1); }
+.fs-display { font-size: var(--fs-display); }
+
+/* Island map: everything inside scales with the MAP (container query
+   units), not the viewport, so nodes and labels track the artwork. */
+.map-frame { container-type: inline-size; }
+.map-node { width: clamp(2.75rem, 9cqw, 5.5rem); }
+.map-label { font-size: clamp(0.9375rem, 2.2cqw, 1rem); max-width: 30cqw; }
+@media (max-width: 479.98px) {
+  .map-label { display: none; }
+}
+
+@layer components {
+  /* Play-screen layout contract: the answer area keeps the same position and
+     size on every item type at every breakpoint. Header 56px, footer 72px;
+     under 500px of viewport height everything compresses and the content
+     splits into stimulus 45% / answer 55% with no scrolling. */
+  .play-header { height: 3.5rem; }
+  .play-footer { height: 4.5rem; }
+
+  .play-content {
+    width: 100%;
+    flex: 1;
+    display: grid;
+    min-height: 0;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: var(--sp-3);
+    padding-inline: var(--sp-4);
+    padding-block: var(--sp-3);
+  }
+
+  .option-card {
+    min-height: 4rem;
+    padding: 0.875rem 1rem;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--fs-option);
+    border-radius: var(--radius-sm);
+  }
+
+  @media (min-width: 768px) {
+    .play-content { padding-inline: var(--sp-5); }
+    .option-card { min-height: 4.25rem; padding: 1rem 1.25rem; }
+  }
+
+  @media (min-width: 1024px) {
+    .play-content {
+      width: var(--w-focus-lg);
+      padding-inline: 0;
+      grid-template-rows: minmax(0, 1fr);
+      grid-template-columns: 46fr 54fr;
+      column-gap: var(--gap-section);
+      align-items: start;
+    }
+    .option-card { min-height: 4.5rem; }
+  }
+
+  @media (max-height: 560px) {
+    .option-card { min-height: 3.5rem; }
+  }
+
+  @media (max-height: 500px) {
+    .play-header { height: 2.75rem; }
+    .play-footer { height: 3rem; }
+    .play-content {
+      grid-template-rows: minmax(0, 1fr);
+      grid-template-columns: 45fr 55fr;
+      padding-block: var(--sp-1);
+    }
+    .option-card { min-height: 3rem; }
+  }
+
+  @media (min-width: 1280px) {
+    .option-card:not(.picture-option) { max-height: 5.25rem; }
+  }
+}
+
+.option-label {
+  font-size: var(--fs-option);
+  line-height: 1.55;
+}
+
+.xp-display, .timer-display, .score-display,
+[data-xp], [data-timer], [data-score] {
+  font-variant-numeric: tabular-nums;
+}
+
+.dyslexia-text {
+  font-family: Verdana, 'Nunito Sans', sans-serif;
+  letter-spacing: 0.05em;
+  word-spacing: 0.14em;
+}
+
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}

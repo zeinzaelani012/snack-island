@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <!--
+    PLACEHOLDER ARTWORK. Replace in Lovable with a generated image using
+    this prompt:
+
+    "Two carved stone faces side by side on a rocky headland, one smiling and
+    one frowning, moss on the rock. Flat vector illustration, thick 3px
+    dark-teal outline, limited palette of teal, sand and coral, soft single
+    shadow, NO TEXT, NO LETTERS."
+  -->
+  <rect width="800" height="450" fill="#FFFBF2"/>
+  <path d="M40 210Q280 186 520 196T764 206Q776 300 768 356T760 428Q520 444 300 438T36 432Q28 330 40 210Z" fill="#8ED0E0"/>
+  <path d="M96 330Q150 260 260 250L540 250Q650 258 704 326Q736 372 712 412L88 414Q64 372 96 330Z" fill="#12726E" opacity=".18" transform="translate(0 10)"/>
+  <path d="M96 330Q150 260 260 250L540 250Q650 258 704 326Q736 372 712 412L88 414Q64 372 96 330Z" fill="#F4E7D3" stroke="#12726E" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#12726E" stroke-width="3" stroke-linejoin="round">
+    <path d="M212 336q-10-64 34-70 44-6 44 62l-6 44h-66Z" fill="#E8C9A8"/>
+    <path d="M330 342q-8-60 36-66 44-6 44 58l-6 46h-64Z" fill="#DDBE9B"/>
+    <path d="M340 416h64l6-46q-38 10-76 0Z" fill="#D7B28D" stroke="none"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3" stroke-linecap="round">
+    <path d="M238 300q10-10 22-2M282 298q10-8 20 0"/>
+    <circle cx="250" cy="312" r="5" fill="#12726E" stroke="none"/>
+    <circle cx="292" cy="312" r="5" fill="#12726E" stroke="none"/>
+    <path d="M252 344q22 18 40-2"/>
+    <path d="M356 302q10-10 22-2M398 300q10-8 20 0"/>
+    <circle cx="368" cy="314" r="5" fill="#12726E" stroke="none"/>
+    <circle cx="408" cy="314" r="5" fill="#12726E" stroke="none"/>
+    <path d="M368 350q22-14 40 4"/>
+    <path d="M224 368q34-10 72 0M348 374q32-10 64 0" stroke-width="2" opacity=".6"/>
+  </g>
+  <g fill="#12726E" opacity=".8">
+    <path d="M170 388q16-18 34-6-14 16-34 6Z"/>
+    <path d="M470 396q14-16 30-6-12 14-30 6Z"/>
+    <path d="M620 380q14-14 28-4-10 14-28 4Z"/>
+  </g>
+  <g fill="none" stroke="#FFFBF2" stroke-width="3" opacity=".6">
+    <path d="M120 250q14-10 28 0M180 232q14-10 28 0M600 240q14-10 28 0M660 258q14-10 28 0"/>
+  </g>
+</svg>

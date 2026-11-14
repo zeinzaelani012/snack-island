@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <!--
+    PLACEHOLDER ARTWORK. Replace in Lovable with a generated image using
+    this prompt:
+
+    "A flat rock summit with a flag pole and a view of a whole tropical island
+    below, morning light. Flat vector illustration, thick 3px dark-teal
+    outline, limited palette of teal #12726E, sand #F4E7D3, coral #C7421C and
+    gold #F5B33C, soft single shadow, NO TEXT, NO LETTERS."
+  -->
+  <rect width="800" height="450" fill="#FFFBF2"/>
+  <circle cx="636" cy="96" r="44" fill="#F5B33C" opacity=".85"/>
+  <path d="M596 118q40-34 84-6" stroke="#F5B33C" stroke-width="4" stroke-linecap="round" fill="none" opacity=".7"/>
+  <path d="M40 288Q200 260 400 264T764 282Q778 340 770 384T758 436Q520 450 320 444T34 438Q28 370 40 288Z" fill="#8ED0E0"/>
+  <path d="M180 320q60-36 130-32l150-4q80 4 130 34 40 26 36 56l-520 2q-10-30 24-56Z" fill="#F4E7D3" stroke="#12726E" stroke-width="3" stroke-linejoin="round" opacity=".9"/>
+  <path d="M300 306q40-24 90-22l60 2q50 6 76 24" stroke="#12726E" stroke-width="2" opacity=".5" fill="none"/>
+  <path d="M96 214Q240 168 400 172T704 210Q748 236 752 278L52 282Q44 244 96 214Z" fill="#12726E" opacity=".16" transform="translate(0 12)"/>
+  <path d="M96 214Q240 168 400 172T704 210Q748 236 752 278L52 282Q44 244 96 214Z" fill="#F4E7D3" stroke="#12726E" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M120 254q90-46 280-44t280 42" stroke="#FFFBF2" stroke-width="26" stroke-linecap="round" opacity=".7" fill="none"/>
+  <g stroke="#12726E" stroke-width="3" stroke-linecap="round">
+    <path d="M400 258V118"/>
+    <path d="M400 118q2-22 0-44" stroke-width="5"/>
+  </g>
+  <path d="M402 74l46 14-46 16V74Z" fill="#C7421C" stroke="#12726E" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#12726E" opacity=".8">
+    <path d="M210 238q16-18 34-6-14 16-34 6Z"/>
+    <path d="M560 232q14-16 30-6-12 14-30 6Z"/>
+  </g>
+  <g fill="none" stroke="#FFFBF2" stroke-width="3" opacity=".6">
+    <path d="M96 330q14-10 28 0M160 348q14-10 28 0M600 336q14-10 28 0M680 352q14-10 28 0"/>
+  </g>
+</svg>

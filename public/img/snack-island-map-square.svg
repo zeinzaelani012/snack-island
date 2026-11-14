@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="none">
+  <!--
+    PLACEHOLDER ARTWORK. Replace in Lovable with a generated image using
+    this prompt (keep the square composition and empty clearings):
+
+    "Top-down illustrated treasure map of a single tropical island on a
+    parchment background, composed as a square. A dotted path climbs from a
+    wooden dock at the bottom through a cove of sweets, an orchard of banana
+    and apple trees, a market with five wooden stalls, a rocky headland with
+    two stone faces, a small cove between echoing cliffs, a cliff face, a
+    shoreline, a grove of small trees, and a flat mountain summit with a flag.
+    Ten landmark clearings along the path. Flat vector illustration, thick 3px
+    dark-teal outline, limited palette of teal #12726E, sand #F4E7D3, coral
+    #C7421C and gold #F5B33C, soft single shadow, ocean border, NO TEXT,
+    NO LETTERS, no labels, generous empty space in the centre of each clearing."
+  -->
+  <rect width="1000" height="1000" fill="#FFFBF2"/>
+  <path d="M46 60Q280 34 520 44T952 58Q970 300 958 520T962 944Q700 966 470 958T44 946Q28 700 40 480T46 60Z" fill="#12726E"/>
+  <g stroke="#FFFBF2" stroke-width="3" opacity=".4" fill="none">
+    <path d="M120 140q14-10 28 0M860 130q14-10 28 0M90 520q14-10 28 0M880 540q14-10 28 0M150 880q14-10 28 0M840 900q14-10 28 0"/>
+  </g>
+  <path d="M120 500Q100 340 200 240Q280 140 430 110Q570 82 710 122Q840 158 880 300Q918 420 880 560Q918 700 820 800Q722 898 560 918Q420 938 300 888Q162 838 122 680Q92 588 120 500Z" fill="#12726E" opacity=".22" transform="translate(0 16)"/>
+  <path d="M120 500Q100 340 200 240Q280 140 430 110Q570 82 710 122Q840 158 880 300Q918 420 880 560Q918 700 820 800Q722 898 560 918Q420 938 300 888Q162 838 122 680Q92 588 120 500Z" fill="#F4E7D3" stroke="#12726E" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M500 924L300 800L580 720L340 600L620 500L380 400L620 300L400 200L550 84" stroke="#C7421C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 16" opacity=".8"/>
+  <g fill="#FFFBF2" opacity=".9">
+    <circle cx="500" cy="924" r="46"/><circle cx="300" cy="800" r="46"/><circle cx="580" cy="720" r="46"/><circle cx="340" cy="600" r="46"/><circle cx="620" cy="500" r="46"/><circle cx="380" cy="400" r="46"/><circle cx="800" cy="620" r="46"/><circle cx="620" cy="300" r="46"/><circle cx="400" cy="200" r="46"/><circle cx="550" cy="84" r="46"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M468 916L410 908L408 936L470 944Z" fill="#F5B33C"/>
+    <path d="M416 912l40 2M422 928l36 2"/>
+    <path d="M432 938v22M466 942v20"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <circle cx="272" cy="778" r="18" fill="#F5B33C"/><path d="M272 796v26"/><path d="M262 770q10-10 20 0" stroke="#C7421C"/>
+    <circle cx="330" cy="812" r="16" fill="#C7421C"/><path d="M330 828v22"/>
+    <rect x="316" y="760" width="26" height="18" rx="6" fill="#F5B33C" transform="rotate(-14 329 769)"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M548 742v-38" stroke-width="6"/><circle cx="547" cy="690" r="24" fill="#12726E" fill-opacity=".85"/><circle cx="540" cy="682" r="5" fill="#F5B33C" stroke="none"/><circle cx="556" cy="696" r="5" fill="#C7421C" stroke="none"/>
+    <path d="M626 736v-30" stroke-width="6"/><circle cx="625" cy="694" r="19" fill="#12726E" fill-opacity=".85"/><circle cx="631" cy="688" r="5" fill="#F5B33C" stroke="none"/>
+    <path d="M596 762v-24" stroke-width="5"/><circle cx="595" cy="728" r="15" fill="#12726E" fill-opacity=".85"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M236 596h44v26h-44Z" fill="#F5B33C"/><path d="M228 596l22-20 22 20Z" fill="#C7421C"/>
+    <path d="M296 606h44v26h-44Z" fill="#F5B33C"/><path d="M288 606l22-20 22 20Z" fill="#C7421C"/>
+    <path d="M356 596h44v26h-44Z" fill="#F5B33C"/><path d="M348 596l22-20 22 20Z" fill="#C7421C"/>
+    <path d="M416 608h44v26h-44Z" fill="#F5B33C"/><path d="M408 608l22-20 22 20Z" fill="#C7421C"/>
+    <path d="M470 622h40v24h-40Z" fill="#F5B33C"/><path d="M462 622l20-18 20 18Z" fill="#C7421C"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M586 486q20-30 44-2l-6 34h-34Z" fill="#F4E7D3"/><circle cx="602" cy="486" r="4" fill="#C7421C" stroke="none"/><path d="M596 500h14" stroke-width="2"/>
+    <path d="M636 492q18-26 40 0l-4 30h-32Z" fill="#F4E7D3"/><circle cx="652" cy="490" r="4" fill="#C7421C" stroke="none"/><path d="M646 504h12" stroke-width="2"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M756 640l22-44 16 24 14-30 20 50Z" fill="#C7421C"/>
+    <path d="M760 668q22-12 44 0" fill="none"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M344 402q-20-24-2-44M424 408q22-22 4-46" fill="none" stroke-width="6"/>
+    <path d="M368 420q30-14 60 0l-8 18h-44Z" fill="#12726E" fill-opacity=".8"/>
+  </g>
+  <g fill="none" stroke="#FFFBF2" stroke-width="3" opacity=".55">
+    <path d="M600 288q14-10 28 0M646 306q14-10 28 0M588 316q14-10 28 0"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M368 206v-26" stroke-width="5"/><circle cx="367" cy="170" r="14" fill="#12726E" fill-opacity=".85"/>
+    <path d="M420 214v-22" stroke-width="5"/><circle cx="419" cy="182" r="12" fill="#12726E" fill-opacity=".85"/><circle cx="440" cy="196" r="10" fill="#12726E" fill-opacity=".85"/>
+    <path d="M386 226v-18" stroke-width="5"/><circle cx="385" cy="200" r="11" fill="#12726E" fill-opacity=".85"/>
+  </g>
+  <g stroke="#12726E" stroke-width="3">
+    <path d="M486 118l24-56h44l24 56Z" fill="#F4E7D3"/>
+    <path d="M504 76h56" stroke-width="4"/>
+    <path d="M532 62v-26" /><path d="M532 36l24 9-24 9Z" fill="#C7421C"/>
+  </g>
+</svg>
